@@ -1,0 +1,150 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="factory_base" id="|TRE=9os!1kJ+#foR.wX" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="BOTH"/>
+    <field name="NAME">ifttt_esp32_setup</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="]W|!/@%8nl[F?o@f-;0Q">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="M)Nl!2ly6;T/a*QW`2,+">
+            <field name="TEXT">IFTTT setup</field>
+            <next>
+              <block type="field_input" id="wT{Npv:!+V4,/^*!Km:*">
+                <field name="TEXT">-key-</field>
+                <field name="FIELDNAME">key</field>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="VVQ?3pZ7Vq:_#V^7/0b:" deletable="false" movable="false">
+        <field name="TEXT">setup IFTTT</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="{XGp4Ta%[0}o5!js,)xZ" deletable="false" movable="false">
+        <field name="TEXT"/>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="zR8`eW{G=:Yt-!{}(SP2"/>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="#m:hy(o?GaW}j,FBWDuS"/>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="3Y9ghk;qz{)ObAwll33p">
+        <mutation colour="#a55b5b"/>
+        <field name="HUE">0</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="|TRE=9os!1kJ+#foR.wX" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="BOTH"/>
+    <field name="NAME">ifttt_esp32_trigger</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="]W|!/@%8nl[F?o@f-;0Q">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="M)Nl!2ly6;T/a*QW`2,+">
+            <field name="TEXT">IFTTT trigger</field>
+            <next>
+              <block type="field_input" id="wT{Npv:!+V4,/^*!Km:*">
+                <field name="TEXT">-event name-</field>
+                <field name="FIELDNAME">event</field>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <next>
+          <block type="input_value" id="ndh0#M5SR=na__B?nzq]">
+            <field name="INPUTNAME">value1</field>
+            <field name="ALIGN">LEFT</field>
+            <value name="TYPE">
+              <shadow type="type_null" id="-`8R6|gefnitBlJyjqjb"/>
+              <block type="type_group" id="|QpgJ+#=Bk4gXXJ~;%aE">
+                <mutation types="3"/>
+                <value name="TYPE0">
+                  <block type="type_boolean" id="U.zkvAJjs-7.k!]sH]r:"/>
+                </value>
+                <value name="TYPE1">
+                  <block type="type_number" id="+6XyW3]IH1yB/4v76IYb"/>
+                </value>
+                <value name="TYPE2">
+                  <block type="type_string" id="v-n=j@PV{@OTE`@JRe3f"/>
+                </value>
+              </block>
+            </value>
+            <next>
+              <block type="input_value" id="~L,HN,`bta.!kWN07Ncd">
+                <field name="INPUTNAME">value2</field>
+                <field name="ALIGN">LEFT</field>
+                <value name="TYPE">
+                  <shadow type="type_null" id="Ci$jcvZ?C$(]2MB%~Hdb"/>
+                  <block type="type_group" id="EHP%OZKm@)Q@n.SXC:]E">
+                    <mutation types="3"/>
+                    <value name="TYPE0">
+                      <block type="type_boolean" id="Prjt4dOd-*0z/DI+r{5d"/>
+                    </value>
+                    <value name="TYPE1">
+                      <block type="type_number" id="DfTLngh9^R%:-mPPvi)I"/>
+                    </value>
+                    <value name="TYPE2">
+                      <block type="type_string" id="*sLm.1^esmRU}w(.rHB`"/>
+                    </value>
+                  </block>
+                </value>
+                <next>
+                  <block type="input_value" id="c{,v.L(*)~nh3|lI#1lg">
+                    <field name="INPUTNAME">value3</field>
+                    <field name="ALIGN">LEFT</field>
+                    <value name="TYPE">
+                      <shadow type="type_null" id="%O-/%vN?yv$W}BjNjl/U"/>
+                      <block type="type_group" id="oEnoSN_[FHw$H*R76TcS">
+                        <mutation types="3"/>
+                        <value name="TYPE0">
+                          <block type="type_boolean" id="3T-BbOx}[|bo/;[R/6GU"/>
+                        </value>
+                        <value name="TYPE1">
+                          <block type="type_number" id="Uz%v^=P|J{(q#WS.Y!RF"/>
+                        </value>
+                        <value name="TYPE2">
+                          <block type="type_string" id="Y,TbeA(TDVk=bZg#hL0$"/>
+                        </value>
+                      </block>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="VVQ?3pZ7Vq:_#V^7/0b:" deletable="false" movable="false">
+        <field name="TEXT">trigger event</field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="{XGp4Ta%[0}o5!js,)xZ" deletable="false" movable="false">
+        <field name="TEXT"/>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="zR8`eW{G=:Yt-!{}(SP2"/>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="#m:hy(o?GaW}j,FBWDuS"/>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="3Y9ghk;qz{)ObAwll33p">
+        <mutation colour="#a55b5b"/>
+        <field name="HUE">0</field>
+      </block>
+    </value>
+  </block></xml>

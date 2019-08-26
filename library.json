@@ -1,0 +1,15 @@
+{
+  "name": "IFTTTWebhook",
+  "title" : "IFTTT Webhook",
+  "keywords": "ifttt, webhook",
+  "description": "Library for triggering IFTTT web hooks, sending up to three values. Does not use Arduino String library.",
+  "category":"Communication",
+  "license": "MIT",
+  "git": "https://github.com/KhonKaenMakerClub/kbide-ifttt-webhook",
+  "author": "John Romkey | blocks by Comdet",
+  "email": "arduino@romkey.com",
+  "url": "https://github.com/romkey/IFTTTWebHook",
+  "version": "1.0.0",
+  "platform": ["arduino-esp32"],
+  "image" : "/static/ifttt-logo.jpg"
+}
